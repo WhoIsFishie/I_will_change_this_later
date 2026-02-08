@@ -5,6 +5,11 @@ import style from "./styles/graph.scss"
 import { i18n } from "../i18n"
 import { classNames } from "../util/lang"
 
+export interface ColorGroup {
+  query: string // tag name to match (e.g. "Resort" or "tag:#Resort")
+  color: string // hex color string (e.g. "#D336A1")
+}
+
 export interface D3Config {
   drag: boolean
   zoom: boolean
@@ -19,6 +24,7 @@ export interface D3Config {
   showTags: boolean
   focusOnHover?: boolean
   enableRadial?: boolean
+  colorGroups?: ColorGroup[]
 }
 
 interface GraphOptions {

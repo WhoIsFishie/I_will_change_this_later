@@ -87,6 +87,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     showTags,
     focusOnHover,
     enableRadial,
+    colorGroups,
   } = JSON.parse(graph.dataset["cfg"]!) as D3Config
 
   const data: Map<SimpleSlug, ContentDetails> = new Map(
@@ -193,12 +194,35 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     {} as Record<(typeof cssVars)[number], string>,
   )
 
+  // normalize color group queries into plain tag names for matching
+  const normalizedColorGroups = (colorGroups ?? []).map((group) => {
+    let tag = group.query.trim()
+    // handle Obsidian-style "tag:#TagName" format
+    if (tag.startsWith("tag:#")) {
+      tag = tag.substring(5)
+    } else if (tag.startsWith("#")) {
+      tag = tag.substring(1)
+    }
+    return { tag: tag.toLowerCase(), color: group.color }
+  })
+
   // calculate color
   const color = (d: NodeData) => {
     const isCurrent = d.id === slug
     if (isCurrent) {
       return computedStyleMap["--secondary"]
-    } else if (visited.has(d.id) || d.id.startsWith("tags/")) {
+    }
+
+    // check tag-based color groups
+    if (normalizedColorGroups.length > 0 && d.tags.length > 0) {
+      for (const group of normalizedColorGroups) {
+        if (d.tags.some((t) => t.toLowerCase() === group.tag)) {
+          return group.color
+        }
+      }
+    }
+
+    if (visited.has(d.id) || d.id.startsWith("tags/")) {
       return computedStyleMap["--tertiary"]
     } else {
       return computedStyleMap["--gray"]
