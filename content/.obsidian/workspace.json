@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "c5e9a020605925c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "b6f964ee08c73121",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c61afed90ecad2a3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aa454e78acb34999",
+    "type": "split",
+    "children": [
+      {
+        "id": "b7b7e2db8141cf83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a2a7118d3ec1834",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c61aa4ccafa720f7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a7bb1661101fb0f3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "9f34f717f355fb77",
+    "type": "split",
+    "children": [
+      {
+        "id": "3372109dc075e58e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "891539cf5dcd982c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "932b49fe14dd34c8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "7dfef173a567b776",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a60c46c561cd9a70",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "691fdaa4e0491e04",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c61afed90ecad2a3",
+  "lastOpenFiles": [
+    "Veyvah.md",
+    "Fenfushi.md",
+    "Templates/Company.md",
+    "Templates/Resort.md",
+    "Templates/Owner.md",
+    "Templates/Lessee.md",
+    "People/Imran Ali.md",
+    "People/Amjad Ismail.md",
+    "People/Ahmed Hafeez.md",
+    "People/Adam Saleem.md",
+    "People/Abdulla Jabir.md",
+    "People/Abdul Latheef Mohamed.md",
+    "Resorts/Ellaidhoo Maldives By Cinnamon.md",
+    "Resorts/Club Med Finolhu Villas.md",
+    "Resorts/Baglioni Resort Maldives.md",
+    "Resorts/Ananea Madivaru Maldives.md",
+    "Resorts/Adaaran Club Rannalhi.md",
+    "Organization/Maldives Association of Tourism Industry - MATI.md",
+    "Resorts/Ozen By Atmosphere At Maadhoo.md",
+    "People/Ahmed Ashraf.md",
+    "Company/Maadhoala Pvt Ltd.md",
+    "New Resorts/Lagoon-31.md",
+    "Company/Keiretsu Pvt Ltd.md",
+    "New Resorts/Lagoon-30.md",
+    "Company/Arena Pvt Ltd.md",
+    "People/Foreigners/Francis Philip V Muuls.md",
+    "New Resorts",
+    "rre",
+    "Dreamland The Unique Sea & Lake Resort",
+    "Images/Ahmed Adeeb.png",
+    "Images",
+    "People/Foreigners",
+    "Company/Foreign",
+    "Company/Cyprea",
+    "Company/Ensis Group",
+    "Resorts",
+    "Organization",
+    "Pasted image 20260205234359.png",
+    "Pasted image 20260205234327.png",
+    "Pasted image 20260205234137.png",
+    "Pasted image 20260205234034.png"
+  ]
+}

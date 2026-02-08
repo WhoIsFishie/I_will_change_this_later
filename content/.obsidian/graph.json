@@ -1,0 +1,79 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:#Resort  ",
+      "color": {
+        "a": 1,
+        "rgb": 13842081
+      }
+    },
+    {
+      "query": "tag:#ResortCompany  ",
+      "color": {
+        "a": 1,
+        "rgb": 16514816
+      }
+    },
+    {
+      "query": "tag:#ResortOwner  ",
+      "color": {
+        "a": 1,
+        "rgb": 16384000
+      }
+    },
+    {
+      "query": "tag:#ResortCompanyConnection  ",
+      "color": {
+        "a": 1,
+        "rgb": 6832089
+      }
+    },
+    {
+      "query": "tag:#ResortPeopleConnection  ",
+      "color": {
+        "a": 1,
+        "rgb": 1629248
+      }
+    },
+    {
+      "query": "tag:#ResortForeigner  ",
+      "color": {
+        "a": 1,
+        "rgb": 65493
+      }
+    },
+    {
+      "query": "tag:#ResortForeign  ",
+      "color": {
+        "a": 1,
+        "rgb": 15508801
+      }
+    },
+    {
+      "query": "tag:#ResortNew  ",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 1.42708333333333,
+  "lineSizeMultiplier": 1.325,
+  "collapse-forces": false,
+  "centerStrength": 0,
+  "repelStrength": 5.83333333333333,
+  "linkStrength": 0.458333333333333,
+  "linkDistance": 30,
+  "scale": 0.0921615566613768,
+  "close": false
+}

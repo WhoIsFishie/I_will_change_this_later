@@ -1,0 +1,17 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "Time Period": "multitext",
+    "Family Name": "multitext",
+    "Children": "multitext",
+    "Constituency": "multitext",
+    "Term": "multitext",
+    "Parties": "multitext",
+    "MD": "multitext",
+    "Directors": "multitext",
+    "Related": "text",
+    "Found Date": "date"
+  }
+}
