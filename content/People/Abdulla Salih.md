@@ -1,7 +1,8 @@
 ---
 Found Date:
+tags:
+  - "ResortPeopleConnection"
 ---
-#ResortPeopleConnection 
 ## Board
 
 | Role | Name              |

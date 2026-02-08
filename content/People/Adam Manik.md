@@ -1,4 +1,7 @@
-#ResortOwner 
+---
+tags:
+  - "ResortOwner"
+---
 ## Company
 
 | Role     | Name                          |

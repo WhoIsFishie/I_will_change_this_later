@@ -1,7 +1,8 @@
 ---
 Found Date: 2013-12-10
+tags:
+  - "ResortCompany"
 ---
-#ResortCompany 
 ## Board
 
 | Role | Name                  |

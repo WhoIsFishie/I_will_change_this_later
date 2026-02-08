@@ -1,7 +1,8 @@
 ---
 Found Date:
+tags:
+  - "ResortNew"
 ---
-#ResortNew 
 
 | Lessee Holder                          |
 | -------------------------------------- |

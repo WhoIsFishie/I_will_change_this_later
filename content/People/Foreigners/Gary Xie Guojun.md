@@ -1,4 +1,7 @@
-#ResortForeign 
+---
+tags:
+  - "ResortForeign"
+---
 
 | Role | Company                 |
 | ---- | ----------------------- |

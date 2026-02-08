@@ -1,4 +1,7 @@
-#ResortPeopleConnection  
+---
+tags:
+  - "ResortPeopleConnection"
+---
 
 | Role | Company                     |
 | ---- | --------------------------- |

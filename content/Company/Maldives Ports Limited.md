@@ -1,4 +1,7 @@
-#ResortCompany 
+---
+tags:
+  - "ResortCompany"
+---
 
 | Lessee Holder |
 | ------------- |

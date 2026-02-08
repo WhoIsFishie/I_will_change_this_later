@@ -1,7 +1,8 @@
 ---
 Found Date:
+tags:
+  - "ResortOwner"
 ---
-#ResortOwner 
 ## Board
 
 | Role | Name                                             |

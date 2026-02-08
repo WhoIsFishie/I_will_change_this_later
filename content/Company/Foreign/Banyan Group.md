@@ -1,4 +1,7 @@
-#ResortCompany 
+---
+tags:
+  - "ResortCompany"
+---
 ## Management
 
 | Role       | Name                                          |

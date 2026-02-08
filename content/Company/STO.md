@@ -1,7 +1,8 @@
 ---
 Found Date:
+tags:
+  - "ResortCompanyConnection"
 ---
-#ResortCompanyConnection 
 ## Board
 
 | Role     | Name             |

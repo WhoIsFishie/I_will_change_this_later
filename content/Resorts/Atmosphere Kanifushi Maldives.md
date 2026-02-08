@@ -1,4 +1,7 @@
-#Resort 
+---
+tags:
+  - "Resort"
+---
 ## Management
 
 | Role            | Name                               |
